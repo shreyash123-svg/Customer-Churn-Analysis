@@ -1,14 +1,17 @@
-# Customer-Churn-Analysis
-1. Project Title
+# Customer Churn Analysis
+
+## 1. Project Title
+
 Customer Churn Analysis
 
+## 2. Short Description / Purpose
 
-2. Short Description / Purpose
 A Python-based customer churn analysis project focused on understanding customer attrition, identifying churn-related patterns, and analyzing customer and subscription behavior.
+
 The project includes data cleaning, feature engineering, exploratory data analysis, visualization, pivot table analysis, and SQL operations using Python.
 
+## 3. Tech Stack
 
-3. Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -17,9 +20,10 @@ The project includes data cleaning, feature engineering, exploratory data analys
 - SQLite
 - Jupyter Notebook
 
+## 4. Data Source
 
-4. Data Source
 The project uses customer, subscription, and support data containing information related to:
+
 - Customer details
 - Gender
 - State and country
@@ -33,12 +37,13 @@ The project uses customer, subscription, and support data containing information
 - Escalations
 - Churn score
 
+## 5. Features & Highlights
 
-5. Features & Highlights
-Business Problem:
+### Business Problem
+
 Customer churn can lead to revenue loss and reduced customer retention. This project analyzes customer, subscription, and support data to understand churn patterns and identify factors associated with customer attrition.
 
-Key Analysis:
+### Key Analysis
 
 - Overall churn rate
 - Customer retention rate
@@ -53,7 +58,8 @@ Key Analysis:
 - Escalation vs churn correlation
 - Churn risk segmentation using churn score
 
-Data Cleaning:
+### Data Cleaning
+
 - Renamed customer columns
 - Removed unnecessary columns
 - Converted date columns to appropriate datetime format
@@ -62,7 +68,8 @@ Data Cleaning:
 - Converted subscription and complaint dates
 - Removed unnecessary support columns
 
-Feature Engineering:
+### Feature Engineering
+
 - Created Churn Flag based on cancellation status
 - Created customer tenure in days
 - Calculated complaint count per customer
@@ -71,7 +78,7 @@ Feature Engineering:
   - Medium
   - High
 
-Data Visualization:
+### Data Visualization
 
 - Monthly churn trend
 - Churn by plan type
@@ -80,7 +87,7 @@ Data Visualization:
 - Pairplot
 - Categorical analysis using Seaborn
 
-Additional Analysis:
+### Additional Analysis
 
 - Pivot table analysis by plan type
 - SQL table creation using SQLite
